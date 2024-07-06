@@ -1,0 +1,4 @@
+iMan ls
+iMan cd
+warp ~
+iMan ls

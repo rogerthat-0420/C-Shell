@@ -1,0 +1,44 @@
+#ifndef HEADERS_H_
+#define HEADERS_H_
+#define char_s sizeof(char)
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+#include <syscall.h>
+#include <sys/sysinfo.h>
+#include <signal.h>
+#include <unistd.h>
+#include <netdb.h>
+#include <termios.h>
+#include <arpa/inet.h>
+#include <setjmp.h>
+#include <string.h>
+#include <dirent.h>
+#include <sys/types.h>
+#include <pwd.h>
+#include <grp.h>
+#include <fcntl.h>
+#include <ctype.h>
+#include <sys/stat.h>
+#include <sys/wait.h>
+#include <sys/times.h>
+#include "warp.h"
+#include "prompt.h"
+#include "neonate.h"
+#include "global.h"
+#include "fg_bg.h"
+#include "peek.h"
+#include "seek.h"
+#include "queue.h"
+#include "iman.h"
+#include "activities.h"
+#include "pastevents.h"
+#include "piping.h"
+#include "time.h"
+#include "system_calls.h"
+#include "proclure.h"
+#include "linked_list.h"
+#include "ping.h"
+#include "input_syn.h"
+
+#endif
